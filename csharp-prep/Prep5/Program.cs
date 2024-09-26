@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Call functions in the Main method
+        
         DisplayWelcome();
 
         string userName = PromptUserName();
@@ -33,7 +33,7 @@ class Program
 
     static int SquareNumber(int number)
     {
-        return number * number; // Return the square of the number
+        return number * number; 
     }
 
     static void DisplayResult(string name, int squaredNumber)
