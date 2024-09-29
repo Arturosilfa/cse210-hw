@@ -45,6 +45,7 @@ namespace JournalProgram
             }
         }
 
+        //Save the journal to a file
         public void SaveToFile()
         {
             Console.Write("What is the filename? ");
@@ -67,6 +68,7 @@ namespace JournalProgram
             }
         }
 
+        //Load the journal from a file
         public void LoadFromFile()
         {
             Console.Write("Enter the filename to load: ");
