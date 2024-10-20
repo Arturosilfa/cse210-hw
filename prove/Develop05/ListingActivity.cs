@@ -1,7 +1,7 @@
 class ListingActivity : MindfulnessActivity
 {
     private string[] prompts = {
-        "List people you appreciate.",
+        "List people you love.",
         "List your personal strengths.",
         "List people you've helped recently."
     };

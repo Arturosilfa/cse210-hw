@@ -8,13 +8,13 @@ class MindfulnessActivity
         Console.WriteLine(description);
         Console.Write("Enter duration in seconds: ");
         duration = int.Parse(Console.ReadLine());
-        Console.WriteLine("Prepare to begin...");
+        Console.WriteLine("Prepare to start...");
         ShowAnimation(3);  // Pause for 3 seconds
     }
 
     public void EndActivity(string activityName)
     {
-        Console.WriteLine($"Good job! You've completed the {activityName} activity for {duration} seconds.");
+        Console.WriteLine($"Well done! You've completed the {activityName} activity for {duration} seconds.");
         ShowAnimation(3);  // Pause for 3 seconds
     }
 

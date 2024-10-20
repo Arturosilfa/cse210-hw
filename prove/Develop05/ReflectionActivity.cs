@@ -2,12 +2,12 @@ class ReflectionActivity : MindfulnessActivity
 {
     private string[] prompts = {
         "Think of a time when you stood up for someone else.",
-        "Think of a time when you did something really difficult.",
+        "Think of a time when you did something really hard.",
         "Think of a time when you helped someone in need."
     };
 
     private string[] questions = {
-        "Why was this experience meaningful to you?",
+        "Why was this experience meaningful?",
         "What did you learn about yourself from this experience?"
     };
 
